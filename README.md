@@ -10,10 +10,9 @@
 目前打算 open source 出來，雖然 code 很髒，
 
 不過至少比第一版好100倍XD。
-  
-    
-  
-  
+
+　　
+ 　　
 # 二、相關網站
 時代的眼淚
 1. [ElswordVoice 軟體網站](http://elsinfo.clouds.twgogo.org/download.html)
