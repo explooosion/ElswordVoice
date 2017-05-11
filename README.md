@@ -32,3 +32,10 @@
 # 三、開發環境
 軟體使用 .Net C# 開發
 
+
+# 四、下載軟體
+1. 可至右上方綠色按鈕點選下載
+2. 使用[git](https://git-scm.com/)下載
+```
+git clone https://github.com/explooosion/ElswordVoice.git
+```
