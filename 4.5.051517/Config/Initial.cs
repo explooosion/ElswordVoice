@@ -28,6 +28,7 @@ namespace ElswordVoice.Config
 
         public Point SetLocation(int w, int h)
         {
+            // 主表單位置 (右下角)
             point.X = Screen.PrimaryScreen.WorkingArea.Width - w;
             point.Y = (Screen.PrimaryScreen.WorkingArea.Height - h);
             return point;

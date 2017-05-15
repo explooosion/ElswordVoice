@@ -13,6 +13,7 @@ namespace ElswordVoice.Config
           *檔案存取變更方法 － 2016/02/14 IncrEdibLe (Robby)
           */
 
+        #region 將目錄(game)底下的檔案命名為 *.kom.temp
         public void RenameToTemp(string path, string[] files)
         {
             foreach (string file in files)
@@ -31,6 +32,7 @@ namespace ElswordVoice.Config
                 }
             }
         }
+        #endregion
 
         public void RenameToKom(string path, string[] files)
         {
@@ -51,6 +53,7 @@ namespace ElswordVoice.Config
             }
         }
 
+        #region 從指定目錄(Ex_Voice)底下複製所有檔案到目標目錄
         public void CopyCustomFiles(string sourcepath, string targetpath, string[] files)
         {
             foreach (string file in files)
@@ -69,7 +72,9 @@ namespace ElswordVoice.Config
                 }
             }
         }
+        #endregion
 
+        #region 刪除遊戲目錄底下的.temp
         public void DeleteCustomFiles(string path, string[] files)
         {
             foreach (string file in files)
@@ -88,9 +93,11 @@ namespace ElswordVoice.Config
                 }
             }
         }
+        #endregion
 
         public void DeleteRegedit()
         {
+            // 刪除註冊檔 避免系統判斷檔案被異動過
             RegistryKey regkey = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\ElswordINT\TW\PatcherOption\", true);
 
             if (regkey.OpenSubKey("MARK_INVALID") != null)

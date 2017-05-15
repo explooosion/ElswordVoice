@@ -11,6 +11,7 @@
     <AssemblyName>ElswordVoice</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>發行\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -22,8 +23,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationVersion>4.5.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -195,19 +195,10 @@
     <None Include="Resources\info.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\FormStartRose.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FormStopRose.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\FormStartRose2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FormStopRose2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\msPDaom.gif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loading2.gif" />
@@ -220,6 +211,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormStartEve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormStopEve.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

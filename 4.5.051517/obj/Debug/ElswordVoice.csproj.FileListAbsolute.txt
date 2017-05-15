@@ -20,3 +20,14 @@ C:\Users\XGIS\Desktop\ElswordVoice\obj\Debug\ElswordVoice.FrmMessage.resources
 C:\Users\XGIS\Desktop\ElswordVoice\obj\Debug\ElswordVoice.csprojResolveAssemblyReference.cache
 C:\Users\XGIS\Desktop\ElswordVoice\obj\Debug\ElswordVoice.FrmAd.resources
 C:\Users\XGIS\Desktop\ElswordVoice\obj\Debug\ElswordVoice.FrmInfo.resources
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\bin\Debug\ElswordVoice.exe
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\bin\Debug\ElswordVoice.pdb
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.csprojResolveAssemblyReference.cache
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.FrmAbout.resources
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.FrmInfo.resources
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.FrmMain.resources
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.FrmMessage.resources
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.Properties.Resources.resources
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.csproj.GenerateResource.Cache
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.exe
+E:\Project\Elsword\ELs_Voice\branches-4.5.051517\4.5.051517\obj\Debug\ElswordVoice.pdb

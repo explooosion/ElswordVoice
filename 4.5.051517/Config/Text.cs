@@ -11,7 +11,6 @@ namespace ElswordVoice.Config
           *字串變數 － 2016/02/14 IncrEdibLe (Robby)
           */
 
-
         public string msg_title_error = "錯誤";
         public string msg_title_alert = "警告";
         public string msg_title_update = "更新通知";
@@ -46,8 +45,11 @@ namespace ElswordVoice.Config
         public string nof_convert = "已轉換完畢!";
         public string nof_title = "窩是轉換器~♥" + Environment.NewLine + "Version：" + Properties.Resources.Version;
 
+
+        // 軟體版本
         public string menu_ver = "Version：" + Properties.Resources.Version;
 
+        // 偵測的應用程式
         public string exe_web = "BFWebStart";
         public string exe_core = "_beanfuncore";
         public string exe_elsword = "elsword";

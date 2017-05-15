@@ -1,0 +1,4 @@
+language: csharp
+solution: ElswordVoice.sln
+install:
+    cd 4.0.072216

@@ -139,9 +139,29 @@ namespace ElswordVoice.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        public static System.Drawing.Bitmap FormStartEve {
+            get {
+                object obj = ResourceManager.GetObject("FormStartEve", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         public static System.Drawing.Bitmap FormStartRose2 {
             get {
                 object obj = ResourceManager.GetObject("FormStartRose2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        public static System.Drawing.Bitmap FormStopEve {
+            get {
+                object obj = ResourceManager.GetObject("FormStopEve", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -157,7 +177,7 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 https://github.com/explooosion 的當地語系化字串。
+        ///   查詢類似 https://github.com/explooosion/ElswordVoice 的當地語系化字串。
         /// </summary>
         public static string GitHub {
             get {
@@ -226,7 +246,7 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 4.0.072216 的當地語系化字串。
+        ///   查詢類似 4.5.051517 的當地語系化字串。
         /// </summary>
         public static string Version {
             get {

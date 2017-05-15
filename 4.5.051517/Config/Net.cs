@@ -23,7 +23,7 @@ namespace ElswordVoice.Config
         private string info_content = String.Empty;
         private string info_date = String.Empty;
 
-        private string url = Properties.Resources.XML; // (臨用Github - 請勿修改)
+        private string url = Properties.Resources.XML; // 讀取公告的位置(暫時用AWS S3 .. 一年試用快屆滿了QQ)
         //private string url = String.Empty;
 
         private MailMessage mail;
@@ -34,6 +34,7 @@ namespace ElswordVoice.Config
         {
             try
             {
+                // 讀取網址的 XML 並解析
                 xmlDoc = new XmlDocument();
                 xmlDoc.Load(url);
                 return true;
@@ -99,6 +100,7 @@ namespace ElswordVoice.Config
             }
             return info_date;
         }
+
 
         // Mail ==============================================================================
 

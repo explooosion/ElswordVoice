@@ -22,13 +22,13 @@ namespace ElswordVoice
         Config.Net net = new Config.Net();
         Config.Controller con = new Config.Controller();
 
-        public bool isAlreadyUpdate = false;
-        public bool isRecover = false;
-        public bool isReplace = false;
-        public bool isStart = false;
+        public bool isAlreadyUpdate = false;    // 是否已經檢查更新
+        public bool isRecover = false;          // 是否已經還原
+        public bool isReplace = false;          // 是否已經取代自訂
+        public bool isStart = false;            // 是否已經開始偵測
 
         public int intAlert = 10;
-        public Bitmap bmp; // BGPic
+        public Bitmap bmp; // 主表單容器
 
         private const int WM_NCHITTEST = 0x84;
         private const int HTCLIENT = 0x1;
@@ -42,6 +42,7 @@ namespace ElswordVoice
 
         protected override void WndProc(ref Message m)
         {
+            // 畫面拖曳
             if (m.Msg == WM_LBUTTONDBLCLK)
             {
                 isStart = !isStart;
@@ -66,13 +67,14 @@ namespace ElswordVoice
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            // 主表單繪製
             if (isStart == true)
             {
-                e.Graphics.DrawImage(new Bitmap(Properties.Resources.FormStartRose2), new Point(0, 0));
+                e.Graphics.DrawImage(new Bitmap(Properties.Resources.FormStartEve), new Point(0, 0));
             }
             else
             {
-                e.Graphics.DrawImage(new Bitmap(Properties.Resources.FormStopRose2), new Point(0, 0));
+                e.Graphics.DrawImage(new Bitmap(Properties.Resources.FormStopEve), new Point(0, 0));
             }
         }
 
@@ -85,27 +87,26 @@ namespace ElswordVoice
                 Dispose();
             }
 
-            // Form
+            // 表單定義
             this.TransparencyKey = SystemColors.WindowFrame;
             this.Location = ini.SetLocation(this.Width, this.Height);
             this.Icon = Properties.Resources.favicon;
 
-            // ToolTip
+            // 滑鼠hover訊息
             ini.SetToolTip(picExit, txt.tip_butter);
             ini.SetToolTip(picLoad, txt.tip_about);
 
-            // noficon
+            // 工作列通知區
             noficon.Icon = Properties.Resources.favicon;
             noficon.Text = txt.nof_title;
             noficon.BalloonTipIcon = ToolTipIcon.Info;
             noficon.BalloonTipTitle = txt.nof_eve;
             noficon.BalloonTipText = txt.nof_convert;
 
-            // conMenu Version
+            // 右鍵選單
             conMenu.Items[0].Text = txt.menu_ver;
-
-
-            // Check Version
+            
+            // 檢查版本
             ini.CheckUpdate(net.GetVersion(), Properties.Resources.Version, false);
 
             FrmInfo info = new FrmInfo();
@@ -114,6 +115,7 @@ namespace ElswordVoice
 
         private void ButtonMode(bool value)
         {
+            // 啟動按鈕(蝴蝶結)
             if (value == true)
             {
                 picExit.Image = Properties.Resources.imgExit1;
@@ -175,9 +177,12 @@ namespace ElswordVoice
             }
             else if (elsword.Length > 0)
             {
+                // 是否更新完畢,這裡刻意設定true,
+                // 表示更新中,但不知所花費時間
                 isAlreadyUpdate = true;
             }
 
+            // 不斷地偵測,當官方更新檔案消失=結束才繼續做
             if (elsword.Length == 0 && isAlreadyUpdate == true)
             {
                 if (!bwkReplace.IsBusy && !isReplace)
