@@ -33,4 +33,5 @@
 git clone https://github.com/explooosion/ElswordVoice.git  
 ```
 　
- 
+# LICENSE
+MIT
