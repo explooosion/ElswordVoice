@@ -17,7 +17,7 @@
             請刪除 requestedExecutionLevel 節點。
         -->
         <!--<requestedExecutionLevel level="asInvoker" uiAccess="false" />-->
-        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" /> <!--run with admin-->
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" /> <!--run with admin-->
       </requestedPrivileges>
     </security>
   </trustInfo>
