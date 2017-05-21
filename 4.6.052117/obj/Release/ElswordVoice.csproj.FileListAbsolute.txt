@@ -65,3 +65,14 @@ C:\Users\XGIS\Desktop\Project\Elsword\ELs_Voice\4.0.072216\obj\Release\ElswordVo
 C:\Users\XGIS\Desktop\Project\Elsword\ELs_Voice\4.0.072216\obj\Release\ElswordVoice.FrmMessage.resources
 C:\Users\XGIS\Desktop\Project\Elsword\ELs_Voice\4.0.072216\obj\Release\ElswordVoice.Properties.Resources.resources
 C:\Users\XGIS\Desktop\Project\Elsword\ELs_Voice\4.0.072216\obj\Release\ElswordVoice.csproj.GenerateResource.Cache
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\bin\Release\ElswordVoice.exe
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\bin\Release\ElswordVoice.pdb
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.csprojResolveAssemblyReference.cache
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.FrmAbout.resources
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.FrmInfo.resources
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.FrmMain.resources
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.FrmMessage.resources
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.Properties.Resources.resources
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.csproj.GenerateResource.Cache
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.exe
+E:\Project\Elsword\ELs_Voice\Master\4.6.052117\obj\Release\ElswordVoice.pdb

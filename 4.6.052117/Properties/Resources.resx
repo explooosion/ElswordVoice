@@ -128,7 +128,7 @@
     <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Version" xml:space="preserve">
-    <value>4.5.051517</value>
+    <value>4.6.052117</value>
     <comment>版本</comment>
   </data>
   <data name="Blog" xml:space="preserve">
@@ -136,7 +136,7 @@
     <comment>Pixnet Blog (post: ElswordVoice)</comment>
   </data>
   <data name="XML" xml:space="preserve">
-    <value>https://s3-ap-northeast-1.amazonaws.com/robby570.tw/config.xml</value>
+    <value>https://els.robby570.tw/config.xml</value>
     <comment>網頁資料XML</comment>
   </data>
   <data name="control_exit1" type="System.Resources.ResXFileRef, System.Windows.Forms">

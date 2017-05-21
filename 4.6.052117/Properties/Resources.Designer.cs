@@ -246,7 +246,7 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 4.5.051517 的當地語系化字串。
+        ///   查詢類似 4.6.052117 的當地語系化字串。
         /// </summary>
         public static string Version {
             get {
@@ -255,7 +255,7 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 https://s3-ap-northeast-1.amazonaws.com/robby570.tw/config.xml 的當地語系化字串。
+        ///   查詢類似 https://els.robby570.tw/config.xml 的當地語系化字串。
         /// </summary>
         public static string XML {
             get {
