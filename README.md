@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/explooosion/ElswordVoice.svg?branch=master)](https://travis-ci.org/explooosion/ElswordVoice)  
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/explooosion/ElswordVoice/blob/master/LICENSE)  
 
 # 一、ElswordVoice（轉換器）
 艾爾之光語音替換工具
