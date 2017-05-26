@@ -1,0 +1,11 @@
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\bin\Release\ElswordVoice.exe
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\bin\Release\ElswordVoice.pdb
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.FrmAbout.resources
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.FrmInfo.resources
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.FrmMain.resources
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.FrmMessage.resources
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.Properties.Resources.resources
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.csproj.GenerateResource.Cache
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.exe
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.pdb
+E:\Project\Elsword\ELs_Voice\Master\4.7.052717\obj\Release\ElswordVoice.csprojResolveAssemblyReference.cache
