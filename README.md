@@ -18,10 +18,10 @@
 　　
 # 二、相關網站　　
 時代的眼淚
-1. [ElswordVoice 軟體網站](http://elsinfo.clouds.twgogo.org/download.html)
-2. [艾爾小幫手－（Robby）Welcome！本區創作艾爾之光配音](http://ta7382.pixnet.net/blog)
+1. [ElswordVoice 軟體網站](http://bit.ly/ElswordVoice)
+2. [艾爾小幫手－（Robby）Welcome！本區創作艾爾之光配音](http://bit.ly/ElsBlog)
 3. [FB-艾爾之光-LINE](https://www.facebook.com/LINEC8763/) 
-4. [ElsInfo-冰裝整理網站](http://elsinfo.clouds.twgogo.org/)  
+4. [ElsInfo-冰裝整理網站](http://bit.ly/艾爾冰裝資訊)  
 5. [艾爾之光公會-LINE](http://elsline.web.fc2.com/)
   
 # 三、開發環境　　
