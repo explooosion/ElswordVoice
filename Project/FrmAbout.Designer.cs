@@ -45,7 +45,7 @@
             // picAbout
             // 
             this.picAbout.BackColor = System.Drawing.Color.Transparent;
-            this.picAbout.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.picAbout.Cursor = System.Windows.Forms.Cursors.Default;
             this.picAbout.Image = global::ElswordVoice.Properties.Resources.about;
             this.picAbout.Location = new System.Drawing.Point(0, 0);
             this.picAbout.Name = "picAbout";
@@ -135,10 +135,10 @@
             this.lnkElsInfo.LinkColor = System.Drawing.Color.White;
             this.lnkElsInfo.Location = new System.Drawing.Point(50, 250);
             this.lnkElsInfo.Name = "lnkElsInfo";
-            this.lnkElsInfo.Size = new System.Drawing.Size(39, 12);
+            this.lnkElsInfo.Size = new System.Drawing.Size(52, 12);
             this.lnkElsInfo.TabIndex = 10;
             this.lnkElsInfo.TabStop = true;
-            this.lnkElsInfo.Text = "ElsInfo";
+            this.lnkElsInfo.Text = "FaceBook";
             this.lnkElsInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkElsInfo_LinkClicked);
             // 
             // lnkGit
@@ -147,7 +147,7 @@
             this.lnkGit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lnkGit.ForeColor = System.Drawing.Color.White;
             this.lnkGit.LinkColor = System.Drawing.Color.White;
-            this.lnkGit.Location = new System.Drawing.Point(95, 250);
+            this.lnkGit.Location = new System.Drawing.Point(110, 250);
             this.lnkGit.Name = "lnkGit";
             this.lnkGit.Size = new System.Drawing.Size(39, 12);
             this.lnkGit.TabIndex = 11;
@@ -161,7 +161,7 @@
             this.lnkDot.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lnkDot.ForeColor = System.Drawing.Color.White;
             this.lnkDot.LinkColor = System.Drawing.Color.White;
-            this.lnkDot.Location = new System.Drawing.Point(140, 250);
+            this.lnkDot.Location = new System.Drawing.Point(156, 250);
             this.lnkDot.Name = "lnkDot";
             this.lnkDot.Size = new System.Drawing.Size(49, 12);
             this.lnkDot.TabIndex = 12;

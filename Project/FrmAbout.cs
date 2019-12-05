@@ -79,7 +79,7 @@ namespace ElswordVoice
 
         private void lnkElsInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(Properties.Resources.ElsInfo); // Pixnet Blog
+            System.Diagnostics.Process.Start(Properties.Resources.FaceBook); // Pixnet Blog
         }
 
         private void lnkGit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

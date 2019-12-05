@@ -34,28 +34,28 @@ namespace ElswordVoice.Config
             return point;
         }
 
-        public void CheckUpdate(string _new, string _old, bool msgpass)
-        {
-            if (_new == "")
-            {
-                MessageBox.Show(txt.msg_vererror, txt.msg_title_update, MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (_new != _old)
-            {
-                DialogResult UpdateResult = MessageBox.Show(txt.msg_verno, txt.msg_title_update, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (UpdateResult == DialogResult.Yes)
-                {
-                    System.Diagnostics.Process.Start(Properties.Resources.Blog); // Pixnet Blog
-                }
-            }
-            else
-            {
-                if (msgpass == true)
-                {
-                    MessageBox.Show(txt.msg_verok, txt.msg_title_update, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-            }
-        }
+        //public void CheckUpdate(string _new, string _old, bool msgpass)
+        //{
+        //    if (_new == "")
+        //    {
+        //        MessageBox.Show(txt.msg_vererror, txt.msg_title_update, MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        //    else if (_new != _old)
+        //    {
+        //        DialogResult UpdateResult = MessageBox.Show(txt.msg_verno, txt.msg_title_update, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        //        if (UpdateResult == DialogResult.Yes)
+        //        {
+        //            System.Diagnostics.Process.Start(Properties.Resources.Blog); // Pixnet Blog
+        //        }
+        //    }
+        //    else
+        //    {
+        //        if (msgpass == true)
+        //        {
+        //            MessageBox.Show(txt.msg_verok, txt.msg_title_update, MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //        }
+        //    }
+        //}
 
         public bool LoadCheck()
         {

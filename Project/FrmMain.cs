@@ -112,12 +112,11 @@ namespace ElswordVoice
             conMenu.Items[0].Text = txt.menu_ver;
 
             // 檢查版本
+            // ini.CheckUpdate(net.GetVersion(), Properties.Resources.Version, false);
+            // Thread.Sleep(1000);
 
-            ini.CheckUpdate(net.GetVersion(), Properties.Resources.Version, false);
-
-            Thread.Sleep(1000);
-            FrmInfo info = new FrmInfo();
-            info.ShowDialog();
+            //FrmInfo info = new FrmInfo();
+            //info.ShowDialog();
         }
 
         private void ButtonMode(bool value)
@@ -287,17 +286,17 @@ namespace ElswordVoice
             message.ShowDialog();
         }
 
-        private void itemUpdate_Click(object sender, EventArgs e)
-        {
-            // Check Version
-            ini.CheckUpdate(net.GetVersion(), Properties.Resources.Version, true);
-        }
+        //private void itemUpdate_Click(object sender, EventArgs e)
+        //{
+        //    // Check Version
+        //    ini.CheckUpdate(net.GetVersion(), Properties.Resources.Version, true);
+        //}
 
-        private void itemInfo_Click(object sender, EventArgs e)
-        {
-            FrmInfo info = new FrmInfo();
-            info.ShowDialog();
-        }
+        //private void itemInfo_Click(object sender, EventArgs e)
+        //{
+        //    FrmInfo info = new FrmInfo();
+        //    info.ShowDialog();
+        //}
 
     }
 }

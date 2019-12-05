@@ -128,7 +128,7 @@
     <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Version" xml:space="preserve">
-    <value>4.7.052717</value>
+    <value>4.8.120519</value>
     <comment>版本</comment>
   </data>
   <data name="Blog" xml:space="preserve">
@@ -162,9 +162,9 @@
     <value>https://dotblogs.com.tw/explooosion</value>
     <comment>DotBlogs</comment>
   </data>
-  <data name="ElsInfo" xml:space="preserve">
-    <value>http://elsinfo.clouds.twgogo.org/</value>
-    <comment>ElsInfo</comment>
+  <data name="FaceBook" xml:space="preserve">
+    <value>https://www.facebook.com/LINEC8763/</value>
+    <comment>FaceBook</comment>
   </data>
   <data name="GitHub" xml:space="preserve">
     <value>https://github.com/explooosion/ElswordVoice</value>

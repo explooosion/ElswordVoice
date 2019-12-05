@@ -23,7 +23,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>4.5.0.0</ApplicationVersion>
+    <ApplicationVersion>4.8.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -196,19 +196,7 @@
     <None Include="Resources\info.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\FormStartRose2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FormStopRose2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\loading2.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RobbyBlog.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RobbyBlog.png.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\about.png" />
@@ -218,6 +206,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FormStopEve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

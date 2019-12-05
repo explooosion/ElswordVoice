@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ElswordVoice")]
 [assembly: AssemblyDescription("艾爾之光配音")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Els_Robby")]
+[assembly: AssemblyCompany("Robby Wu")]
 [assembly: AssemblyProduct("ElswordVoice")]
-[assembly: AssemblyCopyright("Robby  © OpenSource MIT 2014-2017.")]
+[assembly: AssemblyCopyright("Robby  © OpenSource MIT 2014-2019.")]
 [assembly: AssemblyTrademark("IncrEdibLe_Robby")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 您可以指定所有的值，也可以依照以下的方式，使用 '*' 將組建和修訂編號
 // 指定為預設值: 
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.7.0.0")]
-[assembly: AssemblyFileVersion("4.7.0.0")]
+[assembly: AssemblyVersion("4.8.0.0")]
+[assembly: AssemblyFileVersion("4.8.0.0")]
