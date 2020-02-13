@@ -4,8 +4,11 @@
 # 1、ElswordVoice（轉換器）
 艾爾之光語音替換工具
 
-本專案協助艾爾之光語音轉換，軟體已經至少五年的歷史了，目前僅維護bug，並不再提供新功能，很高興能幫助到玩家！
+本專案協助艾爾之光語音轉換，軟體已經至少五年的歷史了，目前僅維護bug，並不再提供新功能，很高興能幫助到玩家！  
 　　
+  
+開始使用 👉 [點我閱讀](https://github.com/explooosion/ElswordVoice/blob/master/How_To_Use.md)
+
 # 2、相關網站　　
 時代的眼淚
 1. ~~[ElswordVoice 軟體網站](http://bit.ly/ElswordVoice)~~
@@ -17,6 +20,3 @@
 # 3、開發環境　　
 軟體使用 .Net C# 開發  
   
-# 4、下載軟體　　
-
-暫時先不提供下載，維護當前 bug 中。
