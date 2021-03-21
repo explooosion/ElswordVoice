@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("ElswordVoice")]
+[assembly: AssemblyTitle("Elvo")]
 [assembly: AssemblyDescription("艾爾之光配音")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Robby Wu")]
-[assembly: AssemblyProduct("ElswordVoice")]
-[assembly: AssemblyCopyright("Robby  © OpenSource MIT 2014-2019.")]
+[assembly: AssemblyProduct("Elvo")]
+[assembly: AssemblyCopyright("Robby  © OpenSource MIT 2014-2021.")]
 [assembly: AssemblyTrademark("IncrEdibLe_Robby")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 您可以指定所有的值，也可以依照以下的方式，使用 '*' 將組建和修訂編號
 // 指定為預設值: 
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.8.0.0")]
-[assembly: AssemblyFileVersion("4.8.0.0")]
+[assembly: AssemblyVersion("4.9.0.0")]
+[assembly: AssemblyFileVersion("4.9.0.0")]

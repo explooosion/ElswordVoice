@@ -1,4 +1,4 @@
-﻿namespace ElswordVoice
+﻿namespace Elvo
 {
     partial class FrmMessage
     {
@@ -212,9 +212,9 @@
             this.lbEmail.ForeColor = System.Drawing.Color.White;
             this.lbEmail.Location = new System.Drawing.Point(24, 84);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(307, 21);
+            this.lbEmail.Size = new System.Drawing.Size(291, 21);
             this.lbEmail.TabIndex = 12;
-            this.lbEmail.Text = "Email（這樣才能回信唷，留白則自動）：";
+            this.lbEmail.Text = "Email（回信用途，留空作者看不到）：";
             // 
             // lbPhotoAddr
             // 

@@ -128,16 +128,12 @@
     <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Version" xml:space="preserve">
-    <value>4.8.120519</value>
+    <value>4.9.032121</value>
     <comment>版本</comment>
   </data>
   <data name="Blog" xml:space="preserve">
     <value>http://ta7382.pixnet.net/</value>
-    <comment>Pixnet Blog (post: ElswordVoice)</comment>
-  </data>
-  <data name="XML" xml:space="preserve">
-    <value>https://els.robby570.tw/config.xml</value>
-    <comment>網頁資料XML(firebase)</comment>
+    <comment>Pixnet Blog (post: Elvo)</comment>
   </data>
   <data name="control_exit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\control_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,13 +147,6 @@
   <data name="itemUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\itemUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Download" xml:space="preserve">
-    <value>http://elsinfo.clouds.twgogo.org/download.html</value>
-    <comment>下載頁面</comment>
-  </data>
-  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DotBlogs" xml:space="preserve">
     <value>https://dotblogs.com.tw/explooosion</value>
     <comment>DotBlogs</comment>
@@ -167,7 +156,7 @@
     <comment>FaceBook</comment>
   </data>
   <data name="GitHub" xml:space="preserve">
-    <value>https://github.com/explooosion/ElswordVoice</value>
+    <value>https://github.com/explooosion/Elvo</value>
     <comment>GitHub</comment>
   </data>
   <data name="loading2" type="System.Resources.ResXFileRef, System.Windows.Forms">

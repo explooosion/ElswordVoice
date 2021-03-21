@@ -1,4 +1,4 @@
-﻿namespace ElswordVoice
+﻿namespace Elvo
 {
     partial class FrmAbout
     {
@@ -46,7 +46,7 @@
             // 
             this.picAbout.BackColor = System.Drawing.Color.Transparent;
             this.picAbout.Cursor = System.Windows.Forms.Cursors.Default;
-            this.picAbout.Image = global::ElswordVoice.Properties.Resources.about;
+            this.picAbout.Image = global::Elvo.Properties.Resources.about;
             this.picAbout.Location = new System.Drawing.Point(0, 0);
             this.picAbout.Name = "picAbout";
             this.picAbout.Size = new System.Drawing.Size(270, 155);
@@ -102,7 +102,7 @@
             // 
             this.picExit.BackColor = System.Drawing.Color.Transparent;
             this.picExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picExit.Image = global::ElswordVoice.Properties.Resources.control_exit1;
+            this.picExit.Image = global::Elvo.Properties.Resources.control_exit1;
             this.picExit.Location = new System.Drawing.Point(238, 242);
             this.picExit.Name = "picExit";
             this.picExit.Size = new System.Drawing.Size(20, 20);

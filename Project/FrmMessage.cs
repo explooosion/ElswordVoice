@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 
-namespace ElswordVoice
+namespace Elvo
 {
     public partial class FrmMessage : Form
     {

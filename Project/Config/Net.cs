@@ -6,7 +6,7 @@ using System.Net;
 using System.Net.Mail;
 using System.IO;
 using System.Windows.Forms;
-namespace ElswordVoice.Config
+namespace Elvo.Config
 {
     class Net
     {
@@ -23,8 +23,8 @@ namespace ElswordVoice.Config
         private string info_content = String.Empty;
         private string info_date = String.Empty;
 
-        private string url = Properties.Resources.XML; // 讀取公告的位置(暫時用AWS S3 .. 一年試用快屆滿了QQ)
-        //private string url = String.Empty;
+        // private string url = Properties.Resources.XML; // 讀取公告的位置(暫時用AWS S3 .. 一年試用快屆滿了QQ)0
+        private string url = String.Empty;
 
         private MailMessage mail;
         private SmtpClient smtp;

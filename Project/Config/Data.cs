@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace ElswordVoice.Config
+namespace Elvo.Config
 {
     class Data
     {
@@ -9,7 +9,7 @@ namespace ElswordVoice.Config
          * 
          * Elsword －－ Data(.kom / .temp)
          *      |
-         *      |  －－ ElswordVoice －－ Ex_Voice (.kom)
+         *      |  －－ Elvo －－ Ex_Voice (.kom)
          */
 
         // Folder Path

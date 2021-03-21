@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ElswordVoice
+namespace Elvo
 {
     public partial class FrmMain : Form
     {
@@ -159,9 +159,9 @@ namespace ElswordVoice
 
         private void timLoad_Tick(object sender, EventArgs e)
         {
-            Process[] BFWeb = Process.GetProcessesByName(txt.exe_web);     //1.登入beanfun資料庫
-            Process[] BFcore = Process.GetProcessesByName(txt.exe_core);  //2.啟動beanfun核心引擎
-            Process[] elsword = Process.GetProcessesByName(txt.exe_elsword);      //3.艾爾之光更新
+            Process[] BFWeb = Process.GetProcessesByName(txt.exe_web);          //1.登入beanfun資料庫
+            Process[] BFcore = Process.GetProcessesByName(txt.exe_core);        //2.啟動beanfun核心引擎
+            Process[] elsword = Process.GetProcessesByName(txt.exe_elsword);    //3.艾爾之光更新
 
             if (BFWeb.Length > 0)
             {
@@ -223,14 +223,14 @@ namespace ElswordVoice
             isRecover = false;
             isAlreadyUpdate = false;
 
-            noficon.ShowBalloonTip(10);
+            //noficon.ShowBalloonTip(10);
         }
 
         private void picExit_Click(object sender, EventArgs e)
         {
-            noficon.BalloonTipText = txt.nof_here;
-            noficon.ShowBalloonTip(5);
-            noficon.BalloonTipText = txt.nof_convert;
+            //noficon.BalloonTipText = txt.nof_here;
+            //noficon.ShowBalloonTip(5);
+            //noficon.BalloonTipText = txt.nof_convert;
             this.Hide();
         }
 

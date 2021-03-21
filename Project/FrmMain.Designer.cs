@@ -1,4 +1,4 @@
-﻿namespace ElswordVoice
+﻿namespace Elvo
 {
     partial class FrmMain
     {
@@ -72,7 +72,7 @@
             // 
             this.picExit.BackColor = System.Drawing.Color.Transparent;
             this.picExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picExit.Image = global::ElswordVoice.Properties.Resources.imgExit2;
+            this.picExit.Image = global::Elvo.Properties.Resources.imgExit2;
             this.picExit.Location = new System.Drawing.Point(158, 78);
             this.picExit.Name = "picExit";
             this.picExit.Size = new System.Drawing.Size(64, 59);
@@ -172,7 +172,7 @@
             this.picLoad.BackColor = System.Drawing.Color.Transparent;
             this.picLoad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picLoad.Cursor = System.Windows.Forms.Cursors.Default;
-            this.picLoad.Image = global::ElswordVoice.Properties.Resources.loading2;
+            this.picLoad.Image = global::Elvo.Properties.Resources.loading2;
             this.picLoad.Location = new System.Drawing.Point(12, 199);
             this.picLoad.Name = "picLoad";
             this.picLoad.Size = new System.Drawing.Size(256, 150);
@@ -218,7 +218,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ElswordVoice";
+            this.Text = "Elvo";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).EndInit();

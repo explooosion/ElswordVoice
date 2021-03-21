@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ElswordVoice.Config
+namespace Elvo.Config
 {
     class Text
     {
@@ -25,7 +25,7 @@ namespace ElswordVoice.Config
         public string msg_verno = "已發現新版本，是否查看？";
         public string msg_pizza = "你渴望披薩嗎？";
         public string msg_eve = "尼想乾麻...還不快去拯救世界！！！";
-        public string msg_loadcheck = "小伊已經執行中了! இдஇ";
+        public string msg_loadcheck = "小伊已經執行中了!";
         public string msg_send = "已成功發送 〈（＿　＿）〉" + Environment.NewLine + "感謝您的回應~";
         public string msg_wait = "↖ 等很久齁? ni被騙了! " + Environment.NewLine + Environment.NewLine + "河河河~河河河~ Ψ(￣∀￣)Ψ";
 
@@ -43,7 +43,7 @@ namespace ElswordVoice.Config
         public string nof_eve = "小伊：";
         public string nof_here = "我在這!";
         public string nof_convert = "已轉換完畢!";
-        public string nof_title = "窩是轉換器~♥" + Environment.NewLine + "Version：" + Properties.Resources.Version;
+        public string nof_title = "轉換器~♥" + Environment.NewLine + "Version：" + Properties.Resources.Version;
 
 
         // 軟體版本

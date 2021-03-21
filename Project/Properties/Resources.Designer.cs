@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ElswordVoice.Properties {
+namespace Elvo.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ElswordVoice.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ElswordVoice.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Elvo.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -109,15 +109,6 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 http://elsinfo.clouds.twgogo.org/download.html 的當地語系化字串。
-        /// </summary>
-        public static string Download {
-            get {
-                return ResourceManager.GetString("Download", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查詢類似 https://www.facebook.com/LINEC8763/ 的當地語系化字串。
         /// </summary>
         public static string FaceBook {
@@ -157,7 +148,7 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 https://github.com/explooosion/ElswordVoice 的當地語系化字串。
+        ///   查詢類似 https://github.com/explooosion/Elvo 的當地語系化字串。
         /// </summary>
         public static string GitHub {
             get {
@@ -181,16 +172,6 @@ namespace ElswordVoice.Properties {
         public static System.Drawing.Bitmap imgExit2 {
             get {
                 object obj = ResourceManager.GetObject("imgExit2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        public static System.Drawing.Bitmap info {
-            get {
-                object obj = ResourceManager.GetObject("info", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,20 +207,11 @@ namespace ElswordVoice.Properties {
         }
         
         /// <summary>
-        ///   查詢類似 4.8.120519 的當地語系化字串。
+        ///   查詢類似 4.9.032121 的當地語系化字串。
         /// </summary>
         public static string Version {
             get {
                 return ResourceManager.GetString("Version", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類似 https://els.robby570.tw/config.xml 的當地語系化字串。
-        /// </summary>
-        public static string XML {
-            get {
-                return ResourceManager.GetString("XML", resourceCulture);
             }
         }
     }
