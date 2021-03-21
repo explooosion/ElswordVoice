@@ -37,7 +37,7 @@
 
 4. 確認 `ElswordVoice` 資料夾內容包含了：
     + Ex_Voice 資料夾
-    + ElswordVoice.exe
+    + Elvo.exe
 
     ![](https://i.imgur.com/80NQbJQ.png)
 
@@ -46,7 +46,7 @@
     
     ![](https://i.imgur.com/Dwue328.png)
 
-6. 建議將軟體設定使用管理員權限執行。右鍵 `ElswordVoice.exe` 選擇內容。
+6. 建議將軟體設定使用管理員權限執行。右鍵 `Elvo.exe` 選擇內容。
     
     ![](https://i.imgur.com/PWbgrYV.png)
 
@@ -54,7 +54,7 @@
     
     ![](https://i.imgur.com/ZMiFtLg.png)
     
-8. 完成後，檢視模式使用【**中圖示**】，應該可以看到 `ElswordVoice.exe` 右下出現小盾牌。
+8. 完成後，檢視模式使用【**中圖示**】，應該可以看到 `Elvo.exe` 右下出現小盾牌。
     
     ![](https://i.imgur.com/PxfNF0A.png)
 
