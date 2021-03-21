@@ -15,7 +15,7 @@
 
     ![](https://i.imgur.com/ENTibMd.png)
 
-2. 選擇最新的版本，於下方點選 [ElswordVoice.zip](https://github.com/explooosion/ElswordVoice/releases/download/4.8.120519/ElswordVoice.zip)。
+2. 選擇最新的版本，於下方點選 ElswordVoice.zip。
 
     ![](https://i.imgur.com/WZtTNEs.png)
 
